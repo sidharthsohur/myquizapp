@@ -107,13 +107,10 @@
   }
 
   function shareResults() {
-    const quizURL = "https://myquizapp.com"; 
-    const quote = "I scored " + score + " out of " + questions.length + " in the quiz! Try it out! #QuizApp";
-
-    const facebookShareURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(quizURL)}&quote=${encodeURIComponent(quote)}`;
-    window.open(facebookShareURL, "_blank");
-  }
- 
+    const tweetText = `I scored ${score} out of ${questions.length} in the quiz! Try it out! #QuizApp`;
+    const twitterShareURL = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
+    window.open(twitterShareURL, "_blank");
+ }
   
 </script>
 
