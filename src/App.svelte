@@ -61,7 +61,7 @@
       // Prepare for the next question
       clearInterval(intervalId);
       showTimer = false;
-      timer = 0;
+      timer = 10;
     } else {
       // Quiz completed
       showHighScores = true;

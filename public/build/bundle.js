@@ -461,13 +461,13 @@ var app = (function () {
     			t9 = space();
     			if (if_block1) if_block1.c();
     			attr_dev(h2, "class", "svelte-5g7pu8");
-    			add_location(h2, file, 144, 6, 4019);
+    			add_location(h2, file, 144, 6, 4020);
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 145, 6, 4049);
+    			add_location(p, file, 145, 6, 4050);
     			attr_dev(button, "class", "svelte-5g7pu8");
-    			add_location(button, file, 146, 6, 4101);
+    			add_location(button, file, 146, 6, 4102);
     			attr_dev(div, "class", "score svelte-5g7pu8");
-    			add_location(div, file, 143, 4, 3993);
+    			add_location(div, file, 143, 4, 3994);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -581,11 +581,11 @@ var app = (function () {
     			t4 = space();
     			if (if_block2) if_block2.c();
     			attr_dev(h2, "class", "svelte-5g7pu8");
-    			add_location(h2, file, 123, 6, 3376);
+    			add_location(h2, file, 123, 6, 3377);
     			attr_dev(div0, "class", "options svelte-5g7pu8");
-    			add_location(div0, file, 124, 6, 3429);
+    			add_location(div0, file, 124, 6, 3430);
     			attr_dev(div1, "class", "question svelte-5g7pu8");
-    			add_location(div1, file, 122, 4, 3347);
+    			add_location(div1, file, 122, 4, 3348);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -717,8 +717,8 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h3, file, 148, 8, 4189);
-    			add_location(ol, file, 149, 8, 4218);
+    			add_location(h3, file, 148, 8, 4190);
+    			add_location(ol, file, 149, 8, 4219);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -790,7 +790,7 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = text(": ");
     			t2 = text(t2_value);
-    			add_location(li, file, 151, 12, 4277);
+    			add_location(li, file, 151, 12, 4278);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -826,7 +826,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Share Results";
     			attr_dev(button, "class", "svelte-5g7pu8");
-    			add_location(button, file, 156, 8, 4402);
+    			add_location(button, file, 156, 8, 4403);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -873,7 +873,7 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(button, "class", "svelte-5g7pu8");
     			toggle_class(button, "selected", /*userAnswers*/ ctx[1][/*currentQuestion*/ ctx[0]] === /*index*/ ctx[21]);
-    			add_location(button, file, 126, 10, 3529);
+    			add_location(button, file, 126, 10, 3530);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -921,7 +921,7 @@ var app = (function () {
     			p = element("p");
     			t = text(t_value);
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 133, 8, 3750);
+    			add_location(p, file, 133, 8, 3751);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -957,7 +957,7 @@ var app = (function () {
     			p = element("p");
     			t = text(t_value);
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 136, 8, 3839);
+    			add_location(p, file, 136, 8, 3840);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -996,7 +996,7 @@ var app = (function () {
     			t1 = text(/*timer*/ ctx[6]);
     			t2 = text(" seconds");
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 139, 8, 3922);
+    			add_location(p, file, 139, 8, 3923);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1044,9 +1044,9 @@ var app = (function () {
     			t1 = space();
     			if_block.c();
     			attr_dev(h1, "class", "svelte-5g7pu8");
-    			add_location(h1, file, 120, 2, 3282);
+    			add_location(h1, file, 120, 2, 3283);
     			attr_dev(main, "class", "svelte-5g7pu8");
-    			add_location(main, file, 119, 0, 3273);
+    			add_location(main, file, 119, 0, 3274);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1152,7 +1152,7 @@ var app = (function () {
     			clearInterval(intervalId);
 
     			$$invalidate(5, showTimer = false);
-    			$$invalidate(6, timer = 0);
+    			$$invalidate(6, timer = 10);
     		} else {
     			// Quiz completed
     			$$invalidate(7, showHighScores = true);
