@@ -43,7 +43,7 @@
   let showExplanation = false;
   let showHint = false;
   let showTimer = false;
-  let timer = 0;
+  let timer = 15;
   let intervalId = null;
   let showHighScores = false;
   let highScores = [];
