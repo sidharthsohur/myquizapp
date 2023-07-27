@@ -112,6 +112,7 @@
 
     const facebookShareURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(quizURL)}&quote=${encodeURIComponent(quote)}`;
     window.open(facebookShareURL, "_blank");
+  }
  
   
 </script>
