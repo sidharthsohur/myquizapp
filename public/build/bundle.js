@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35732/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -422,7 +422,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (143:2) {:else}
+    // (140:2) {:else}
     function create_else_block(ctx) {
     	let div;
     	let h2;
@@ -461,13 +461,13 @@ var app = (function () {
     			t9 = space();
     			if (if_block1) if_block1.c();
     			attr_dev(h2, "class", "svelte-5g7pu8");
-    			add_location(h2, file, 144, 6, 4020);
+    			add_location(h2, file, 141, 6, 3923);
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 145, 6, 4050);
+    			add_location(p, file, 142, 6, 3953);
     			attr_dev(button, "class", "svelte-5g7pu8");
-    			add_location(button, file, 146, 6, 4102);
+    			add_location(button, file, 143, 6, 4005);
     			attr_dev(div, "class", "score svelte-5g7pu8");
-    			add_location(div, file, 143, 4, 3994);
+    			add_location(div, file, 140, 4, 3897);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -532,14 +532,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(143:2) {:else}",
+    		source: "(140:2) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (122:2) {#if currentQuestion < questions.length}
+    // (119:2) {#if currentQuestion < questions.length}
     function create_if_block(ctx) {
     	let div1;
     	let h2;
@@ -581,11 +581,11 @@ var app = (function () {
     			t4 = space();
     			if (if_block2) if_block2.c();
     			attr_dev(h2, "class", "svelte-5g7pu8");
-    			add_location(h2, file, 123, 6, 3377);
+    			add_location(h2, file, 120, 6, 3280);
     			attr_dev(div0, "class", "options svelte-5g7pu8");
-    			add_location(div0, file, 124, 6, 3430);
+    			add_location(div0, file, 121, 6, 3333);
     			attr_dev(div1, "class", "question svelte-5g7pu8");
-    			add_location(div1, file, 122, 4, 3348);
+    			add_location(div1, file, 119, 4, 3251);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -686,14 +686,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(122:2) {#if currentQuestion < questions.length}",
+    		source: "(119:2) {#if currentQuestion < questions.length}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (148:6) {#if showHighScores}
+    // (145:6) {#if showHighScores}
     function create_if_block_5(ctx) {
     	let h3;
     	let t1;
@@ -717,8 +717,8 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h3, file, 148, 8, 4190);
-    			add_location(ol, file, 149, 8, 4219);
+    			add_location(h3, file, 145, 8, 4093);
+    			add_location(ol, file, 146, 8, 4122);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -768,14 +768,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(148:6) {#if showHighScores}",
+    		source: "(145:6) {#if showHighScores}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (151:10) {#each highScores as highScore}
+    // (148:10) {#each highScores as highScore}
     function create_each_block_1(ctx) {
     	let li;
     	let t0_value = /*highScore*/ ctx[22].name + "";
@@ -790,7 +790,7 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = text(": ");
     			t2 = text(t2_value);
-    			add_location(li, file, 151, 12, 4278);
+    			add_location(li, file, 148, 12, 4181);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -808,14 +808,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(151:10) {#each highScores as highScore}",
+    		source: "(148:10) {#each highScores as highScore}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (156:6) {#if showShareButton}
+    // (153:6) {#if showShareButton}
     function create_if_block_4(ctx) {
     	let button;
     	let mounted;
@@ -826,7 +826,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Share Results";
     			attr_dev(button, "class", "svelte-5g7pu8");
-    			add_location(button, file, 156, 8, 4403);
+    			add_location(button, file, 153, 8, 4306);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -848,14 +848,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(156:6) {#if showShareButton}",
+    		source: "(153:6) {#if showShareButton}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (126:8) {#each questions[currentQuestion].options as option, index}
+    // (123:8) {#each questions[currentQuestion].options as option, index}
     function create_each_block(ctx) {
     	let button;
     	let t_value = /*option*/ ctx[19] + "";
@@ -873,7 +873,7 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(button, "class", "svelte-5g7pu8");
     			toggle_class(button, "selected", /*userAnswers*/ ctx[1][/*currentQuestion*/ ctx[0]] === /*index*/ ctx[21]);
-    			add_location(button, file, 126, 10, 3530);
+    			add_location(button, file, 123, 10, 3433);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -903,14 +903,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(126:8) {#each questions[currentQuestion].options as option, index}",
+    		source: "(123:8) {#each questions[currentQuestion].options as option, index}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (133:6) {#if showExplanation}
+    // (130:6) {#if showExplanation}
     function create_if_block_3(ctx) {
     	let p;
     	let t_value = /*questions*/ ctx[9][/*currentQuestion*/ ctx[0]].explanation + "";
@@ -921,7 +921,7 @@ var app = (function () {
     			p = element("p");
     			t = text(t_value);
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 133, 8, 3751);
+    			add_location(p, file, 130, 8, 3654);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -939,14 +939,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(133:6) {#if showExplanation}",
+    		source: "(130:6) {#if showExplanation}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (136:6) {#if showHint}
+    // (133:6) {#if showHint}
     function create_if_block_2(ctx) {
     	let p;
     	let t_value = /*questions*/ ctx[9][/*currentQuestion*/ ctx[0]].hint + "";
@@ -957,7 +957,7 @@ var app = (function () {
     			p = element("p");
     			t = text(t_value);
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 136, 8, 3840);
+    			add_location(p, file, 133, 8, 3743);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -975,14 +975,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(136:6) {#if showHint}",
+    		source: "(133:6) {#if showHint}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (139:6) {#if showTimer}
+    // (136:6) {#if showTimer}
     function create_if_block_1(ctx) {
     	let p;
     	let t0;
@@ -996,7 +996,7 @@ var app = (function () {
     			t1 = text(/*timer*/ ctx[6]);
     			t2 = text(" seconds");
     			attr_dev(p, "class", "svelte-5g7pu8");
-    			add_location(p, file, 139, 8, 3923);
+    			add_location(p, file, 136, 8, 3826);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1016,7 +1016,7 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(139:6) {#if showTimer}",
+    		source: "(136:6) {#if showTimer}",
     		ctx
     	});
 
@@ -1044,9 +1044,9 @@ var app = (function () {
     			t1 = space();
     			if_block.c();
     			attr_dev(h1, "class", "svelte-5g7pu8");
-    			add_location(h1, file, 120, 2, 3283);
+    			add_location(h1, file, 117, 2, 3186);
     			attr_dev(main, "class", "svelte-5g7pu8");
-    			add_location(main, file, 119, 0, 3274);
+    			add_location(main, file, 116, 0, 3177);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1130,7 +1130,7 @@ var app = (function () {
     	let showExplanation = false;
     	let showHint = false;
     	let showTimer = false;
-    	let timer = 0;
+    	let timer = 15;
     	let intervalId = null;
     	let showHighScores = false;
     	let highScores = [];
@@ -1206,10 +1206,9 @@ var app = (function () {
     	}
 
     	function shareResults() {
-    		const quizURL = "https://myquizapp.com";
-    		const quote = "I scored " + score + " out of " + questions.length + " in the quiz! Try it out! #QuizApp";
-    		const facebookShareURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(quizURL)}&quote=${encodeURIComponent(quote)}`;
-    		window.open(facebookShareURL, "_blank");
+    		const tweetText = `I scored ${score} out of ${questions.length} in the quiz! Try it out! #QuizApp`;
+    		const twitterShareURL = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
+    		window.open(twitterShareURL, "_blank");
     	}
 
     	const writable_props = [];
